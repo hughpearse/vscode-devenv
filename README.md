@@ -53,4 +53,5 @@ vscode-fedora  | Open this link in your browser https://vscode.dev/tunnel/1234ab
 2. After authenticating, return to the docker container console output.
 3. A tunnel will be created automatically you're ready to open vscode in your browser https://vscode.dev/tunnel/1234abcdef1234
 
-
+References
+- https://hub.docker.com/r/hughpearse/vscodeserver
