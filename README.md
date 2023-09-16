@@ -48,6 +48,9 @@ vscode-fedora  |
 vscode-fedora  | Open this link in your browser https://vscode.dev/tunnel/1234abcdef1234
 ```
 
-Log into https://github.com/login/device and return to the console. A tunnel will be created you're ready to open vscode in your browser https://vscode.dev/tunnel/1234abcdef1234
+## Steps
+1. Log into https://github.com/login/device using the one time password provided
+2. After authenticating, return to the docker container console output.
+3. A tunnel will be created automatically you're ready to open vscode in your browser https://vscode.dev/tunnel/1234abcdef1234
 
 
