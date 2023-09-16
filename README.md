@@ -42,7 +42,12 @@ vscode-fedora  | * By using the software, you agree to
 vscode-fedora  | * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 vscode-fedora  | * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 vscode-fedora  | *
-vscode-fedora  | To grant access to the server, please log into https://github.com/login/device and use code ABCD-1234
+vscode-fedora  | To grant access to the server, please log into https://github.com/login/device and use code DA35-9B8D
+vscode-fedora  | [2023-09-16 22:20:42] info Creating tunnel with the name: 1234abcdef1234
+vscode-fedora  |
+vscode-fedora  | Open this link in your browser https://vscode.dev/tunnel/1234abcdef1234
 ```
 
-Log into https://github.com/login/device and you're ready to code in your vscode tunnel https://vscode.dev/tunnel/1234abcdef1234
+Log into https://github.com/login/device and return to the console. A tunnel will be created you're ready to open vscode in your browser https://vscode.dev/tunnel/1234abcdef1234
+
+
