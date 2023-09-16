@@ -23,7 +23,7 @@ user@laptop$ sudo systemctl reboot
 Clone the reop
 
 ```bash
-user@laptop$ git clone http://example.git
+user@laptop$ git clone https://github.com/hughpearse/vscode-devenv.git
 ```
 
 Build and run the container
