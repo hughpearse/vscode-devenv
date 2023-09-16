@@ -14,4 +14,4 @@ RUN apt-get update -y \
 
 USER developer
 
-CMD code tunnel --no-sleep
+CMD code tunnel
