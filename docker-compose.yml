@@ -1,0 +1,32 @@
+version: "3.8"
+name: "devenv"
+networks:
+  default:
+    name: devenv
+    driver: bridge
+services:
+  ##########
+  # ubuntu
+  ##########
+  vscode-ubuntu:
+    image: vscodeserver/jammy-jdk-11:1.0
+    build:
+      context: services/ubuntu
+      dockerfile: Dockerfile
+    container_name: vscode-ubuntu
+    volumes:
+      - ubuntu:/home/
+  ##########
+  # ubuntu
+  ##########
+  vscode-fedora:
+    image: vscodeserver/fedora40-jdk-11:1.0
+    build:
+      context: services/fedora
+      dockerfile: Dockerfile
+    container_name: vscode-fedora
+    volumes:
+      - fedora:/home/
+volumes:
+  ubuntu: {}
+  fedora: {}
