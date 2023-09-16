@@ -9,4 +9,4 @@ RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc \
 
 USER developer
 
-CMD code tunnel --no-sleep
+CMD code tunnel
